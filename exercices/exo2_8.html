@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exo2 8 Formulaire de contact</title>
+</head>
+<body>
+    <h1>Contactez-nous</h1>
+    <form action="" method="post">
+        <!-- utiliser 'Fieldset' pour encadrer le formulaire -->
+        <fieldset>
+ <br>
+
+            <legend>Vos Coordonnees</legend>
+            <div class="nom">
+                <label for="nom">Nom :</label> <br>
+                <input type="text" placeholder="nom" class="nom" id="nom">
+            </div>
+
+            <br>
+            <div class="email">
+                <label for="email">Email :</label> <br>
+                <input type="email" placeholder="email" class="email" id="email">
+            </div>
+
+            <br>
+            <div class="telephone">
+                <label for="tel">Telephone :</label> <br>
+                <input type="number" placeholder="ex. +224 629 08 08 08" class="tel" id="tel">
+            </div>
+            <br>
+        </fieldset>
+
+        <!-- Champ de saisi du message -->
+        <fieldset>
+            <legend>Votre message</legend>
+ <br>
+
+            <div class="sujet">
+                <label for="sujet">Sujet :</label> <br>
+                <input type="text" placeholder="Objet du message" class="sujet" id="sujet">
+            </div>
+ <br>
+            <div class="message">
+                <label for="msg">Message :</label> <br>
+                <textarea name="" id="" cols="30" rows="4"></textarea>
+            </div>
+            <br>
+        </fieldset>
+<br>
+        <button type="submit">Envoyer le message</button>
+        <button type="reset">Effacer</button>
+    </form>
+    
+</body>
+</html>
