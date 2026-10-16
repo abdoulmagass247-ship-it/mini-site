@@ -1,0 +1,44 @@
+h2 {
+    color: aqua; 
+    width: 450px; 
+
+}
+
+/*
+ decalration dun paragraphe
+utiliser p pour selectionner tous leds paragraphes
+*/
+p {
+    border: solid red 2px;
+    /* font-size: large; */
+}
+
+
+.test {
+    background-color: yellowgreen;
+}
+
+.grand {
+    font-size: 20px;
+}
+
+.alert {
+    font-size: 25px;
+    
+}
+
+#h10 {
+    color: yellow;
+}
+
+h1, h2  {
+    color: navy;
+}
+.carte p {
+ color: chartreuse;
+}
+
+
+.divtest {
+    background-color: violet;
+}
