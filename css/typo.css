@@ -6,10 +6,15 @@
 .h1, .liens {
     display: inline-block;
 }
+
 h1 {
     width: 400px;
     text-align: center;
     background-color: aqua;
+    border: 10px solid green;
+    /* color: rgb(129, 33, 78); */
+    color: #FFF;
+    
 }
 
 p {
@@ -19,7 +24,9 @@ p {
   font-weight: 800;
   font-style: normal;
   line-height: 4.4;
-  text-align: right;
-  text-align: center;
+  /* text-align: right; 
+   text-align: center; 
+   text-transform: uppercase; */
+  text-transform: capitalize;
 
 }
