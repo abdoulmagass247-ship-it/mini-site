@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Playwrite+HU:wght@100..400&display=swap');
+
+* {
+    width: 960px;
+}
+.h1, .liens {
+    display: inline-block;
+}
+h1 {
+    width: 400px;
+    text-align: center;
+    background-color: aqua;
+}
+
+p {
+  font-family: "Playwrite HU", cursive;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 4.4;
+  text-align: right;
+  text-align: center;
+
+}
